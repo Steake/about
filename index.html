@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Steake</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        />
+        <style>
+            body {
+                background-color: #f5f5f5;
+                color: #333;
+                font-family: "Helvetica Neue", Arial, sans-serif;
+            }
+
+            .header {
+                background: #333;
+                color: #fff;
+                padding: 1em 0;
+            }
+
+            .header .title {
+                margin: 0;
+            }
+
+            .nav {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                padding: 0;
+            }
+
+            .nav li {
+                margin: 0 1em;
+            }
+
+            .nav li a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            .section {
+                padding: 3rem 1.5rem;
+            }
+
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            .image-container {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 1em;
+            }
+
+            .project {
+                background: #fff;
+                padding: 1em;
+                margin-bottom: 1em;
+                box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+            }
+
+            a {
+                color: #007bff;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            .footer {
+                background: #333;
+                color: #fff;
+                padding: 1em 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <h1 class="title">Steake</h1>
+                <nav>
+                    <ul class="nav">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section id="about" class="section" data-aos="fade-up">
+                <div class="container">
+                    <h2>About Me</h2>
+                    <div class="image-container">
+                        <img
+                            src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif"
+                            alt="About Me GIF"
+                        />
+                    </div>
+                    <p>
+                        I am Oli, a founding role working to launch a
+                        groundbreaking cryptographic self-sovereign identity
+                        system leveraging dPKI forming a hyperdimensional
+                        social/network graph...
+                    </p>
+                </div>
+            </section>
+            <section id="projects" class="section" data-aos="fade-up">
+                <div class="container">
+                    <h2>Projects</h2>
+                    <div class="project">
+                        <h3>Shadowgraph</h3>
+                        <p>
+                            A hyperdimensional social network graph leveraging
+                            cryptographic self-sovereign identity...
+                        </p>
+                        <a href="https://github.com/steake/shadowgraph"
+                            >Learn more</a
+                        >
+                    </div>
+                    <!-- Add more projects as needed -->
+                </div>
+            </section>
+            <section id="contact" class="section" data-aos="fade-up">
+                <div class="container">
+                    <h2>Contact</h2>
+                    <p>
+                        Feel free to reach out via
+                        <a href="mailto:your-email@example.com">email</a> or
+                        connect with me on
+                        <a href="https://github.com/steake">GitHub</a>.
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2024 Steake ❤️‍🔥</p>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 800,
+                easing: "slide",
+                once: true,
+            });
+        </script>
+    </body>
+</html>
