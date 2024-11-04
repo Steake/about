@@ -27,8 +27,9 @@ A hyperdimensional social network graph leveraging cryptographic self-sovereign 
 
 Feel free to reach out:
 
-- **Email:** [your-email@example.com](mailto:your-email@example.com)
+- **Email:** [ollie.steake@gmail.com](mailto:ollie.steake@gmail.com)
 - **GitHub:** [Steake](https://github.com/steake)
+- **BraveNew.Capital** [BraveNew.Capital](https://bravenew.capital)
 
 ## 📈 GitHub Stats
 
